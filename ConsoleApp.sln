@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{AFEBD47C-7337-4313-980B-A9FAF7440A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel", "Excel\Excel.csproj", "{520E3521-656D-4D9C-8DEE-F0AB6E72DAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{B5AA3E21-B029-4FDD-AC37-7ABF74884FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{0691889C-F3C7-47A2-9CBF-853A52D7788B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailService", "MailService\MailService.csproj", "{43E5306A-6B4B-4C7F-B86E-B7B512DDD831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfService", "PdfService\PdfService.csproj", "{3F838E1C-722B-459E-AEC7-CF94DBE667BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorTemplate", "RazorTemplate\RazorTemplate.csproj", "{079232FA-896A-4B40-9897-E0FED8E79FFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFEBD47C-7337-4313-980B-A9FAF7440A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEBD47C-7337-4313-980B-A9FAF7440A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEBD47C-7337-4313-980B-A9FAF7440A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEBD47C-7337-4313-980B-A9FAF7440A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520E3521-656D-4D9C-8DEE-F0AB6E72DAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520E3521-656D-4D9C-8DEE-F0AB6E72DAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520E3521-656D-4D9C-8DEE-F0AB6E72DAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520E3521-656D-4D9C-8DEE-F0AB6E72DAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AA3E21-B029-4FDD-AC37-7ABF74884FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AA3E21-B029-4FDD-AC37-7ABF74884FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AA3E21-B029-4FDD-AC37-7ABF74884FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AA3E21-B029-4FDD-AC37-7ABF74884FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0691889C-F3C7-47A2-9CBF-853A52D7788B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0691889C-F3C7-47A2-9CBF-853A52D7788B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0691889C-F3C7-47A2-9CBF-853A52D7788B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0691889C-F3C7-47A2-9CBF-853A52D7788B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E5306A-6B4B-4C7F-B86E-B7B512DDD831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E5306A-6B4B-4C7F-B86E-B7B512DDD831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E5306A-6B4B-4C7F-B86E-B7B512DDD831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E5306A-6B4B-4C7F-B86E-B7B512DDD831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F838E1C-722B-459E-AEC7-CF94DBE667BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F838E1C-722B-459E-AEC7-CF94DBE667BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F838E1C-722B-459E-AEC7-CF94DBE667BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F838E1C-722B-459E-AEC7-CF94DBE667BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079232FA-896A-4B40-9897-E0FED8E79FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079232FA-896A-4B40-9897-E0FED8E79FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079232FA-896A-4B40-9897-E0FED8E79FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079232FA-896A-4B40-9897-E0FED8E79FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

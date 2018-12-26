@@ -1,0 +1,10 @@
+E:\kishorkira\ConsoleAppHttpClient\MailService\bin\Debug\MailService.dll
+E:\kishorkira\ConsoleAppHttpClient\MailService\bin\Debug\MailService.pdb
+E:\kishorkira\ConsoleAppHttpClient\MailService\bin\Debug\BouncyCastle.Crypto.dll
+E:\kishorkira\ConsoleAppHttpClient\MailService\bin\Debug\MailKit.dll
+E:\kishorkira\ConsoleAppHttpClient\MailService\bin\Debug\MimeKit.dll
+E:\kishorkira\ConsoleAppHttpClient\MailService\bin\Debug\MailKit.xml
+E:\kishorkira\ConsoleAppHttpClient\MailService\bin\Debug\MimeKit.xml
+E:\kishorkira\ConsoleAppHttpClient\MailService\obj\Debug\MailService.csprojResolveAssemblyReference.cache
+E:\kishorkira\ConsoleAppHttpClient\MailService\obj\Debug\MailService.dll
+E:\kishorkira\ConsoleAppHttpClient\MailService\obj\Debug\MailService.pdb

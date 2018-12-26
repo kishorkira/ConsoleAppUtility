@@ -1,0 +1,9 @@
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\bin\Debug\RazorTemplate.dll
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\bin\Debug\RazorTemplate.pdb
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\bin\Debug\RazorEngine.dll
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\bin\Debug\System.Web.Razor.dll
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\bin\Debug\RazorEngine.xml
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\bin\Debug\System.Web.Razor.xml
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\obj\Debug\RazorTemplate.dll
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\obj\Debug\RazorTemplate.pdb
+E:\kishorkira\ConsoleAppHttpClient\RazorTemplate\obj\Debug\RazorTemplate.csprojResolveAssemblyReference.cache
