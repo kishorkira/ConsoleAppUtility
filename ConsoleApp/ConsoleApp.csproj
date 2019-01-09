@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +56,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BarCodeService\BarCodeService.csproj">
+      <Project>{72515d2a-ae20-4acc-9a55-b1038489f91e}</Project>
+      <Name>BarCodeService</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Excel\Excel.csproj">
       <Project>{520e3521-656d-4d9c-8dee-f0ab6e72daef}</Project>
       <Name>Excel</Name>

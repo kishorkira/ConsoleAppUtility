@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------------
+Date : 09-01-19 5:22:02 PM
+-----------------------------------------------------------------------------
+Date : 09-01-19 5:22:49 PM
+-----------------------------------------------------------------------------
+Date : 09-01-19 5:23:50 PM
+public class mCore_Account {
+-----------------------------------------------------------------------------
+Date : 09-01-19 5:24:24 PM
+public class mCore_Account {
+-----------------------------------------------------------------------------
+Date : 09-01-19 5:25:56 PM
+public class mCore_Account {
+public int iMasterId {get; set;} 
+public string sName {get; set;} 
+public string sCode {get; set;} 
+public int iAccountType {get; set;} 
+public decimal fCreditLimit {get; set;} 
+public int iCreditDays {get; set;} 
+public bool bGroup {get; set;} 
+public byte iStatus {get; set;} 
+public bool bDoNotRestrict {get; set;} 
+public int iCreatedBy {get; set;} 
+public int iModifiedBy {get; set;} 
+public long iCreatedDate {get; set;} 
+public long iModifiedDate {get; set;} 
+public int iLocationId {get; set;} 
+public bool bEditedFrom {get; set;} 
+public int iClosingDate {get; set;} 
+public bool bAllowOtherCompaniesToViewRecord {get; set;} 
+public byte iAuthStatus {get; set;} 
+public int iEditingLocation {get; set;} 
+public long iSyncReceivedDate {get; set;} 
+}}

@@ -153,5 +153,60 @@ namespace Excel
             }
 
         }
+
+        public static Dictionary<string, string> ExcelToModelKeyValue(string path)
+        {
+            var fields = new Dictionary<string, string>();
+            fields.Add("nvarchar", "string");
+            fields.Add("int", "int");
+            fields.Add("tinyint", "byte");
+            fields.Add("bit", "bool");
+            fields.Add("bigint", "long");
+            fields.Add("decimal", "decimal");
+
+
+            //create a list to hold all the values
+            Dictionary<string, string> modelData = new Dictionary<string, string>();
+            try
+            {
+                //read the Excel file as byte array
+                byte[] bin = File.ReadAllBytes(path);
+
+                //or if you use asp.net, get the relative path
+                //byte[] bin = File.ReadAllBytes(Server.MapPath("ExcelDemo.xlsx"));
+
+                //create a new Excel package in a memorystream
+                using (MemoryStream stream = new MemoryStream(bin))
+                using (ExcelPackage excelPackage = new ExcelPackage(stream))
+                {
+                    //loop all worksheets
+                    foreach (ExcelWorksheet worksheet in excelPackage.Workbook.Worksheets)
+                    {
+                        //loop all rows
+                        for (int i = worksheet.Dimension.Start.Row; i <= worksheet.Dimension.End.Row; i++)
+                        {
+                            var datatype = fields.ContainsKey(worksheet.Cells[i, 1].Value.ToString()) ? fields[worksheet.Cells[i, 1].Value.ToString()] : worksheet.Cells[i, 1].Value.ToString();
+                            modelData.Add(worksheet.Cells[i, 2].Value.ToString(), datatype);
+                            ////loop all columns in a row
+                            //for (int j = worksheet.Dimension.Start.Column; j <= worksheet.Dimension.End.Column; j++)
+                            //{
+                            //    //add the cell data to the List
+                            //    if (worksheet.Cells[i, j].Value != null)
+                            //    {
+                            //        excelData.Add(worksheet.Cells[i, j].Value.ToString());
+                            //    }
+                            //}
+                        }
+                    }
+                }
+                return modelData;
+            }
+            catch (Exception e)
+            {
+                return modelData;
+                throw new Exception("ExcelToModelKeyValue", e);
+            }
+            
+        }
     }
 }

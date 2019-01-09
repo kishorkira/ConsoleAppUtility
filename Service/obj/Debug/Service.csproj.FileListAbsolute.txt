@@ -18,3 +18,13 @@ E:\kishorkira\ConsoleAppHttpClient\Service\bin\Debug\Newtonsoft.Json.xml
 E:\kishorkira\ConsoleAppHttpClient\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 E:\kishorkira\ConsoleAppHttpClient\Service\obj\Debug\Service.dll
 E:\kishorkira\ConsoleAppHttpClient\Service\obj\Debug\Service.pdb
+E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Service.dll
+E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Service.pdb
+E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Models.dll
+E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Newtonsoft.Json.dll
+E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Models.pdb
+E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Newtonsoft.Json.pdb
+E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Newtonsoft.Json.xml
+E:\kishorkira\ConsoleAppUtility\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\kishorkira\ConsoleAppUtility\Service\obj\Debug\Service.dll
+E:\kishorkira\ConsoleAppUtility\Service\obj\Debug\Service.pdb

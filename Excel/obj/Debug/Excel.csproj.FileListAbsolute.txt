@@ -16,3 +16,12 @@ E:\kishorkira\ConsoleAppHttpClient\Excel\bin\Debug\EPPlus.xml
 E:\kishorkira\ConsoleAppHttpClient\Excel\obj\Debug\Excel.csprojResolveAssemblyReference.cache
 E:\kishorkira\ConsoleAppHttpClient\Excel\obj\Debug\Excel.dll
 E:\kishorkira\ConsoleAppHttpClient\Excel\obj\Debug\Excel.pdb
+E:\kishorkira\ConsoleAppUtility\Excel\bin\Debug\Excel.dll
+E:\kishorkira\ConsoleAppUtility\Excel\bin\Debug\Excel.pdb
+E:\kishorkira\ConsoleAppUtility\Excel\bin\Debug\EPPlus.dll
+E:\kishorkira\ConsoleAppUtility\Excel\bin\Debug\Models.dll
+E:\kishorkira\ConsoleAppUtility\Excel\bin\Debug\Models.pdb
+E:\kishorkira\ConsoleAppUtility\Excel\bin\Debug\EPPlus.xml
+E:\kishorkira\ConsoleAppUtility\Excel\obj\Debug\Excel.csprojResolveAssemblyReference.cache
+E:\kishorkira\ConsoleAppUtility\Excel\obj\Debug\Excel.dll
+E:\kishorkira\ConsoleAppUtility\Excel\obj\Debug\Excel.pdb

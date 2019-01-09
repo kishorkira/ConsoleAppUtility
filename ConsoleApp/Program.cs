@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.IO;
 using Service;
 using Models;
+using BarCodeService;
 
 namespace ConsoleApp
 {
@@ -25,7 +26,8 @@ namespace ConsoleApp
             try
             {
                 var p = new Program();
-
+                //p.ExcelToModel("models", "mCore_Account");
+                //p.CreateBarcode("this is a barcode.");
                 //PdfService.IronPdfPackage.HtmlFileToPdf(@"C:\Users\hp\Desktop\Desktop\table.html");
                 //var html = "<h1 style='color:Red;'>Test</h1>";
                 //PdfService.IronPdfPackage.HtmlToPdf(html);
@@ -35,33 +37,52 @@ namespace ConsoleApp
                 //p.DoAsync();
 
                 //p.TodosExcel("Todos");
-               //var r = new Random();
+                //var r = new Random();
 
-                for (int i = 0; i < 10; i++)
-                {
-                    //Console.WriteLine(p.Code(r));
-                    //p.GetTodo(1);
-                    //p.GetTodo(2);
-                    //p.GetTodo(3);
-                    //p.GetTodo(4);
-                    //p.GetTodo(5);
+                //for (int i = 0; i < 10; i++)
+                //{
+                //    //Console.WriteLine(p.Code(r));
+                //    //p.GetTodo(1);
+                //    //p.GetTodo(2);
+                //    //p.GetTodo(3);
+                //    //p.GetTodo(4);
+                //    //p.GetTodo(5);
 
-                    //p.GetTodos();
+                //    //p.GetTodos();
 
-                    //p.GetTodo(6);
-                    //p.GetTodo(7);
-                    //p.GetTodo(8);
-                    //p.GetTodo(9);
-                }
+                //    //p.GetTodo(6);
+                //    //p.GetTodo(7);
+                //    //p.GetTodo(8);
+                //    //p.GetTodo(9);
+                //}
 
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine(e.Message);
+                while (ex != null)
+                {
+                    Console.WriteLine(ex.GetType().FullName);
+                    Console.WriteLine("Message : " + ex.Message);
+                    Console.WriteLine("StackTrace : " + ex.StackTrace);
+
+                    ex = ex.InnerException;
+                }
+
             }
             Console.ReadKey();
         }      
         
+        void CreateBarcode(string data)
+        {
+            IronBarCodePackage.CreateBarCode(data);
+        }
+
+        void ReadBarCode(string path)
+        {
+            IronBarCodePackage.ReadBarCode(path);
+
+        }
+
         async void DoAsync()
         {
             var filePath = await Task.Run(() =>
@@ -74,6 +95,12 @@ namespace ConsoleApp
              });
             Console.WriteLine(filePath);
 
+        }
+        void ExcelToModel(string filename,string className)
+        {
+           var modeldata = Excel.ExcelUtil.ExcelToModelKeyValue(String.Format(@"C:\Users\hp\Desktop\Desktop\{0}.xlsx", filename));
+            Logger.DictToModel(modeldata, className);
+            Console.WriteLine($"{className} Model created");
         }
 
         async void TodosExcel(string filename)
