@@ -156,14 +156,40 @@ namespace Excel
 
         public static Dictionary<string, string> ExcelToModelKeyValue(string path)
         {
-            var fields = new Dictionary<string, string>();
-            fields.Add("nvarchar", "string");
-            fields.Add("int", "int");
-            fields.Add("tinyint", "byte");
-            fields.Add("bit", "bool");
-            fields.Add("bigint", "long");
-            fields.Add("decimal", "decimal");
+            var fields = new Dictionary<string, string>();           
 
+            fields.Add("bigint", "Int64");
+            fields.Add("binary", "Byte[]");
+            fields.Add("bit", "Boolean");
+            fields.Add("char", "string");
+            fields.Add("date", "DateTime");
+            fields.Add("datetime", "DateTime");
+            fields.Add("datetime2 ", "DateTime");
+            fields.Add("datetimeoffset ", "DateTimeOffset");
+            fields.Add("decimal", "Decimal");
+            fields.Add("varbinary(max)", "Byte[]");
+            fields.Add("float", "Double");
+            fields.Add("image", "Byte[]");
+            fields.Add("int", "Int32");
+            fields.Add("money", "Decimal");
+            fields.Add("nchar", "string");
+            fields.Add("ntext", "string");
+            fields.Add("numeric", "Decimal");
+            fields.Add("nvarchar", "string");
+            fields.Add("real", "Single");
+            fields.Add("rowversion", "Byte[]");
+            fields.Add("smalldatetime", "DateTime");
+            fields.Add("smallint", "Int16");
+            fields.Add("smallmoney", "Decimal");
+            fields.Add("sql_variant", "Object <sup>2</sup>");
+            fields.Add("text", "string");
+            fields.Add("time", "TimeSpan");
+            fields.Add("timestamp", "Byte[]");
+            fields.Add("tinyint", "Byte");
+            fields.Add("uniqueidentifier", "Guid");
+            fields.Add("varbinary", "Byte[]");
+            fields.Add("varchar", "string");
+            fields.Add("xml", "Xml");
 
             //create a list to hold all the values
             Dictionary<string, string> modelData = new Dictionary<string, string>();
