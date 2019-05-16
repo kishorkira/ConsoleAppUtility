@@ -48,6 +48,14 @@ namespace Excel
             worksheet.Cells["D2"].Value = "Title";
             worksheet.Cells["E2"].Value = "Completed";
             worksheet.Cells["B3"].LoadFromCollection<Todo>(todos);
+            worksheet.Cells["H1:H4"].Merge = true;
+            var H1 = worksheet.Cells["H1"];
+            H1.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center;
+            H1.Value = "df \n dfdgfd \n fggfd";
+            H1.Style.VerticalAlignment = ExcelVerticalAlignment.Top;
+            H1.Style.WrapText = true;
+
+
             worksheet.Cells.AutoFitColumns();
         }
 
@@ -59,6 +67,7 @@ namespace Excel
             worksheet.Cells["C2"].Value = "Title";
             worksheet.Cells["D2"].Value = "User";
             worksheet.Cells["E2"].Value = "Completed";
+            worksheet.View.FreezePanes(3,2);
             int row = 3;
             foreach (var todo in todos)
             {
@@ -69,6 +78,8 @@ namespace Excel
 
                 worksheet.Cells[$"C{row}"].Style.Fill.PatternType = ExcelFillStyle.Solid;
                 worksheet.Cells[$"C{row}"].Style.Fill.BackgroundColor.SetColor(todo.Completed ? Color.Green : Color.Red);
+                worksheet.Cells[$"C{row}"].Style.Font.Color.SetColor(Color.White);
+                worksheet.Cells[$"C{row}"].Style.Border.Bottom.Style = ExcelBorderStyle.Thin;
 
                 row++;
             }
@@ -88,9 +99,6 @@ namespace Excel
                     Todos = g,
                     Total = g.Count()
                 });
-
-
-
             worksheet.Cells["B2"].Value = "User";
             worksheet.Cells["C2"].Value = "Completed";
             worksheet.Cells["D2"].Value = "Pending";

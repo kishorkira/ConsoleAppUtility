@@ -28,3 +28,13 @@ E:\kishorkira\ConsoleAppUtility\Service\bin\Debug\Newtonsoft.Json.xml
 E:\kishorkira\ConsoleAppUtility\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 E:\kishorkira\ConsoleAppUtility\Service\obj\Debug\Service.dll
 E:\kishorkira\ConsoleAppUtility\Service\obj\Debug\Service.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\bin\Debug\Service.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\bin\Debug\Service.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\bin\Debug\Models.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\bin\Debug\Newtonsoft.Json.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\bin\Debug\Models.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\bin\Debug\Newtonsoft.Json.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\bin\Debug\Newtonsoft.Json.xml
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\obj\Debug\Service.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Service\obj\Debug\Service.pdb

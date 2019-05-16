@@ -7,3 +7,8 @@ E:\kishorkira\ConsoleAppUtility\Models\bin\Debug\Models.pdb
 E:\kishorkira\ConsoleAppUtility\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 E:\kishorkira\ConsoleAppUtility\Models\obj\Debug\Models.dll
 E:\kishorkira\ConsoleAppUtility\Models\obj\Debug\Models.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Models\bin\Debug\Models.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Models\bin\Debug\Models.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Models\obj\Debug\Models.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\Models\obj\Debug\Models.pdb

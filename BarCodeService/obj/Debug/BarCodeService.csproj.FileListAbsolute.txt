@@ -5,3 +5,10 @@ E:\kishorkira\ConsoleAppUtility\BarCodeService\bin\Debug\IronBarCode.xml
 E:\kishorkira\ConsoleAppUtility\BarCodeService\obj\Debug\BarCodeService.csprojResolveAssemblyReference.cache
 E:\kishorkira\ConsoleAppUtility\BarCodeService\obj\Debug\BarCodeService.dll
 E:\kishorkira\ConsoleAppUtility\BarCodeService\obj\Debug\BarCodeService.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\BarCodeService\bin\Debug\BarCodeService.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\BarCodeService\bin\Debug\BarCodeService.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\BarCodeService\bin\Debug\IronBarCode.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\BarCodeService\bin\Debug\IronBarCode.xml
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\BarCodeService\obj\Debug\BarCodeService.csprojResolveAssemblyReference.cache
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\BarCodeService\obj\Debug\BarCodeService.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\BarCodeService\obj\Debug\BarCodeService.pdb

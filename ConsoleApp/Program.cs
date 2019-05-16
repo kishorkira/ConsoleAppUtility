@@ -25,7 +25,11 @@ namespace ConsoleApp
             //Console.WriteLine(path);
             try
             {
+                //Program.Test();
                 var p = new Program();
+                //Console.WriteLine(p.GetDateToInt(DateTime.Now));
+                //Console.WriteLine(p.GetDateTimetoInt(DateTime.Now));
+
                 //p.ExcelToModel("models", "mCore_Account");
                 //p.CreateBarcode("this is a barcode.");
                 //PdfService.IronPdfPackage.HtmlFileToPdf(@"C:\Users\hp\Desktop\Desktop\table.html");
@@ -36,7 +40,7 @@ namespace ConsoleApp
 
                 //p.DoAsync();
 
-                //p.TodosExcel("Todos");
+                p.TodosExcel("Todos");
                 //var r = new Random();
 
                 //for (int i = 0; i < 10; i++)
@@ -59,7 +63,8 @@ namespace ConsoleApp
             }
             catch (Exception ex)
             {
-                while (ex != null)
+                Console.WriteLine(ex.TargetSite.Name);
+                    while (ex != null)
                 {
                     Console.WriteLine(ex.GetType().FullName);
                     Console.WriteLine("Message : " + ex.Message);
@@ -72,6 +77,11 @@ namespace ConsoleApp
             Console.ReadKey();
         }      
         
+        static void Test()
+        {
+            Console.WriteLine("Test");
+            var a = Convert.ToInt32("dfgdfg");
+        }
         void CreateBarcode(string data)
         {
             IronBarCodePackage.CreateBarCode(data);
@@ -175,6 +185,17 @@ namespace ConsoleApp
             }
             return code;
         }
-
+        public Int64 GetDateTimetoInt(DateTime dt)
+        {
+            Int64 val;
+            val = Convert.ToInt64(dt.Year) * 8589934592 + Convert.ToInt64(dt.Month) * 33554432 + Convert.ToInt64(dt.Day) * 131072 + Convert.ToInt64(dt.Hour) * 4096 + Convert.ToInt64(dt.Minute) * 64 + Convert.ToInt64(dt.Second);
+            return val;
+        }
+        public int GetDateToInt(DateTime dt)
+        {
+            int val;
+            val = Convert.ToInt16(dt.Year) * 65536 + Convert.ToInt16(dt.Month) * 256 + Convert.ToInt16(dt.Day);
+            return val;
+        }
     }
 }

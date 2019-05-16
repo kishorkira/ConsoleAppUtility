@@ -12,3 +12,10 @@ E:\kishorkira\ConsoleAppUtility\PdfService\bin\Debug\IronPdf.xml
 E:\kishorkira\ConsoleAppUtility\PdfService\obj\Debug\PdfService.csprojResolveAssemblyReference.cache
 E:\kishorkira\ConsoleAppUtility\PdfService\obj\Debug\PdfService.dll
 E:\kishorkira\ConsoleAppUtility\PdfService\obj\Debug\PdfService.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\PdfService\bin\Debug\PdfService.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\PdfService\bin\Debug\PdfService.pdb
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\PdfService\bin\Debug\IronPdf.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\PdfService\bin\Debug\IronPdf.xml
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\PdfService\obj\Debug\PdfService.csprojResolveAssemblyReference.cache
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\PdfService\obj\Debug\PdfService.dll
+E:\kishorkira\Projects\My\Console\ConsoleAppUtility\PdfService\obj\Debug\PdfService.pdb

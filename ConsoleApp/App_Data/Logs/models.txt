@@ -32,3 +32,27 @@ public byte iAuthStatus {get; set;}
 public int iEditingLocation {get; set;} 
 public long iSyncReceivedDate {get; set;} 
 }}
+-----------------------------------------------------------------------------
+Date : 09-01-19 6:17:19 PM
+public class mCore_Account {
+public Int32 iMasterId {get; set;} 
+public string sName {get; set;} 
+public string sCode {get; set;} 
+public Int32 iAccountType {get; set;} 
+public Decimal fCreditLimit {get; set;} 
+public Int32 iCreditDays {get; set;} 
+public Boolean bGroup {get; set;} 
+public Byte iStatus {get; set;} 
+public Boolean bDoNotRestrict {get; set;} 
+public Int32 iCreatedBy {get; set;} 
+public Int32 iModifiedBy {get; set;} 
+public Int64 iCreatedDate {get; set;} 
+public Int64 iModifiedDate {get; set;} 
+public Int32 iLocationId {get; set;} 
+public Boolean bEditedFrom {get; set;} 
+public Int32 iClosingDate {get; set;} 
+public Boolean bAllowOtherCompaniesToViewRecord {get; set;} 
+public Byte iAuthStatus {get; set;} 
+public Int32 iEditingLocation {get; set;} 
+public Int64 iSyncReceivedDate {get; set;} 
+}}
